@@ -43,7 +43,6 @@ This is harder than it sounds — many SoCal cities share similar roads, vegetat
 - Batch size: 128
 - Image size: 128×128
 - Early stopping: patience = 5 epochs
-- Hardware: Apple Silicon MPS GPU
 - Training time: under 5 minutes
 
 ---
