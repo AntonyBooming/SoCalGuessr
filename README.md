@@ -60,7 +60,7 @@ This project was built under real-world production constraints:
 
 | File | Description |
 |---|---|
-| `train.py` | Training script — fine-tunes ResNet18 on the SoCalGuessr dataset |
+| `train.py` | Training script — fine-tuned ResNet18 on the SoCalGuessr dataset |
 | `predict.py` | Inference script — loads saved weights and predicts city for each test image |
 | `training_curve.png` | Training loss and validation accuracy across epochs |
 
