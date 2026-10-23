@@ -68,7 +68,7 @@ class SoCalDataset(Dataset):
     def __init__(self, root, transform=None):
         self.root = pathlib.Path(root)
         self.transform = transform
-        self.samples = []  # list of (path, label_index)
+        self.samples = []  # list of (path, label_value)
 
         # this determines the class label of an image based on its filename. For
         # example, the image "Los_Angeles-123.jpg" would be labeled as "Los_Angeles". We
